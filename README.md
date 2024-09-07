@@ -40,3 +40,48 @@ Sonra Ctrl+Shift+" tıklayarak yeni bir terminal açın.
 <code>bash idx-expo-templates.sh proje-adi</code> komutunu çalıştırın. <code>proje-adi</code> bölümüne proje adını yazın. Yazmazsanız otomatik olarak _rn-proje_ adıyla oluşturulacaktır.
 
 Script sizin için gereken işlemleri yapacak.
+
+----
+
+<h3>EN</h3>
+
+If you are using Project IDX and create a React Native project, Expo's @latest template will come.
+Although this template is good, it makes it difficult for beginners to name it because of its complicated file structure.
+
+This script will create an Expo application in IDX that uses the blank template.
+
+If you want to change the template, you can edit the code.
+
+**How ​​to use?**
+
+_**Node.js script**_
+
+First, download the <code>idx-expo-templates.js</code> file.
+
+<p>Then <a href="https://idx.google.com/new/react-native">create a new project in Project IDX with the React Native template.</a></p>
+
+Wait until the Android emulator and your application come up. Never close the Android emulator while doing these operations.
+
+Then click on the 3 lines at the top right of IDX, go to the home/user/ folder from File > Open folder and drop the script into that folder.
+
+Then open a new terminal by clicking Ctrl+Shift+".
+
+Run the command <code>node idx-expo-templates.js project-name</code>. Write the project name in the <code>project-name</code> section. If you don't write it, it will be created automatically with the name _rn-project_.
+
+The script will do the necessary operations for you.
+
+_**Bash script**_
+
+First, download the <code>idx-expo-templates.sh</code> file.
+
+<p>Then <a href="https://idx.google.com/new/react-native">Create a new project with the React Native template in Project IDX.</a></p>
+
+Wait until the Android emulator and your application appear. Never close the Android emulator while doing these operations.
+
+Then click on the 3 lines on the top right in IDX, go to the home/user/ folder from File > Open folder and drop the script into that folder.
+
+Then Open a new terminal by clicking Ctrl+Shift+".
+
+Run the command <code>bash idx-expo-templates.sh project-name</code>. Write the project name in the <code>project-name</code> field. If you don't write it, it will be created automatically with the name _rn-project_.
+
+The script will do the necessary operations for you.
