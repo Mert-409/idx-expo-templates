@@ -3,7 +3,7 @@
 PROJECT_NAME=${1:-rn-proje}
 
 echo "Moving .idx folder..."
-if [ -d "$HOME/.idx" ];
+if [ -d "$HOME/$USER/.idx" ];
   echo ".idx folder moved."
 fi
 
