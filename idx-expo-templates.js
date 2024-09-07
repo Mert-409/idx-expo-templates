@@ -1,3 +1,5 @@
+// Bash script is recommended.
+
 // Before using run npm install fs-extra
 
 #!/usr/bin/env node
@@ -15,32 +17,33 @@ function moveIdxFolder() {
   const destination = path.resolve(projectName, '.idx');
 
   if (fs.existsSync(source)) {
-    console.log('.idx klasörü taşınıyor...');
+    console.log('Moving .idx folder...');
     fs.copySync(source, destination);
   } else {
-    console.log('.idx klasörü bulunamadı.');
+    console.log('Can't found .idx folder.');
   }
 }
 
 function deleteCurrentProject() {
-  console.log('Mevcut projeyi siliyorum...');
+  console.log('Deleting old project...');
   fs.removeSync(path.resolve(projectName));
 }
 
 function createExpoApp() {
-  console.log('Yeni Expo projesi oluşturuluyor...');
+  console.log('Creating new Expo project...');
   execSync(`npx create-expo-app ${projectName} --template blank --yes`, { stdio: 'inherit' });
 }
 
 function runAndroid() {
-  console.log('Android emülatörü başlatılıyor...');
-  execSync(`cd ${projectName} && npx expo run:android`, { stdio: 'inherit' });
+  console.log('Starting Android emulator...');
+  execSync(`cd ${projectName} && npm run android`, { stdio: 'inherit' });
 }
 
 function main() {
+  moveIdxFolder(); 
   deleteCurrentProject();
   createExpoApp();
-  moveIdxFolder();
+
   runAndroid();
 }
 
