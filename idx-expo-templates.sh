@@ -3,10 +3,8 @@
 PROJECT_NAME=${1:-rn-proje}
 
 echo "Moving .idx folder..."
-if [ -d "$HOME/.idx" ]; then
-  mv $HOME/.idx $PROJECT_NAME/
+if [ -d "$HOME/.idx" ];
   echo ".idx folder moved."
-  echo "Can't found .idx folder."
 fi
 
 echo "Deleting old project..."
@@ -15,6 +13,8 @@ rm -rf $PROJECT_NAME
 echo "Creating new Expo project..."
 npx create-expo-app $PROJECT_NAME --template blank
 # You can edit template here.
+
+mv $HOME/.idx $PROJECT_NAME/
 
 echo "Starting Android emulator..."
 cd $PROJECT_NAME
