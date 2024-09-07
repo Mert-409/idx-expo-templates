@@ -2,7 +2,7 @@
 
 PROJECT_NAME=${1:-rn-proje}
 
-echo ".idx folder moving..."
+echo "Moving .idx folder..."
 if [ -d "$HOME/.idx" ]; then
   mv $HOME/.idx $PROJECT_NAME/
   echo ".idx folder moved."
@@ -12,7 +12,7 @@ fi
 echo "Deleting old project..."
 rm -rf $PROJECT_NAME
 
-echo "Creating new Expo project"
+echo "Creating new Expo project..."
 npx create-expo-app $PROJECT_NAME --template blank
 # You can edit template here.
 
