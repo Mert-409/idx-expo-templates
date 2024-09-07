@@ -14,7 +14,7 @@ echo "Creating new Expo project..."
 npx create-expo-app $PROJECT_NAME --template blank
 # You can edit template here.
 
-mv $HOME/.idx $PROJECT_NAME/
+mv $HOME/$USER/.idx $PROJECT_NAME/
 
 echo "Starting Android emulator..."
 cd $PROJECT_NAME
