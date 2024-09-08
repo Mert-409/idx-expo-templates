@@ -51,7 +51,7 @@ move_idx_to_new_project() {
 # Android emülatörünü başlat
 run_android() {
   echo "Android emülatörü başlatılıyor..."
-  cd "$PROJECT_NAME" && npx expo run:android
+  cd "$PROJECT_NAME" && npm run android
 }
 
 # Ana işlem
