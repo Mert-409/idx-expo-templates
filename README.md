@@ -153,7 +153,7 @@ _**Node.js script**_
 
 First, download the <code>idx-expo-templates.js</code> file.
 
-<p>Then <a href="https://idx.google.com/new/react-native">Create a new project with the React Native template in Project IDX.</a></p>
+<p>Then <a href="https://idx.google.com/new/react-native">create a new project with the React Native template in Project IDX.</a></p>
 
 You can go to the creation screen by pressing the button below.
 
