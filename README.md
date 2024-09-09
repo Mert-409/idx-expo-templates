@@ -34,6 +34,23 @@ _**Bash script'i**_ - Tavsiye edilir
 
 <p>Sonra <a href="https://idx.google.com/new/react-native">Project IDX'te React Native şablonuyla yeni bir proje oluşturun.</a></p>
 
+Aşağıdaki butona basarak oluşturma ekranına gidebilirsiniz.
+
+<a href="https://idx.google.com/new/react-native">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://cdn.idx.dev/btn/open_dark_32.svg">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://cdn.idx.dev/btn/open_light_32.svg">
+    <img
+      height="32"
+      alt="Open in IDX"
+      src="https://cdn.idx.dev/btn/open_purple_32.svg">
+  </picture>
+</a>
+
 Android emülatörü ve uygulamanız yanda gelene kadar bekleyin. Bu işlemleri yaparken Android emülatörünü asla kapatmayın.
 
 Sonra IDX'te sağ üstteki 3 çizgiye tıklayın, File > Open folder kısmından home/user/ klasörüne gidin ve script'i o klasöre bırakın.
