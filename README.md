@@ -1,8 +1,6 @@
 # Project IDX React Native Expo Templates
 **This script in development.**
 
-Open this repo in IDX:
-
 <a href="https://idx.google.com/import?url=https%3A%2F%2Fgithub.com%2FMert-409%2Fidx-expo-templates%2F">
   <picture>
     <source
@@ -36,8 +34,6 @@ _**Bash script'i**_ - Tavsiye edilir
 
 <p>Sonra <a href="https://idx.google.com/new/react-native">Project IDX'te React Native şablonuyla yeni bir proje oluşturun.</a></p>
 
-Aşağıdaki butona basarak oluşturma ekranına gidebilirsiniz.
-
 <a href="https://idx.google.com/new/react-native">
   <picture>
     <source
@@ -48,7 +44,7 @@ Aşağıdaki butona basarak oluşturma ekranına gidebilirsiniz.
       srcset="https://cdn.idx.dev/btn/open_light_32.svg">
     <img
       height="32"
-      alt="Open in IDX"
+      alt="IDX'te yeni React Native projesi oluşturun"
       src="https://cdn.idx.dev/btn/open_purple_32.svg">
   </picture>
 </a>
@@ -70,6 +66,21 @@ _**Node.js script'i**_
 Öncelikle <code>idx-expo-templates.js</code> dosyasını indirin.
 
 <p>Sonra <a href="https://idx.google.com/new/react-native">Project IDX'te React Native şablonuyla yeni bir proje oluşturun.</a></p>
+
+<a href="https://idx.google.com/new/react-native">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://cdn.idx.dev/btn/open_dark_32.svg">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://cdn.idx.dev/btn/open_light_32.svg">
+    <img
+      height="32"
+      alt="IDX'te yeni React Native projesi oluşturun"
+      src="https://cdn.idx.dev/btn/open_purple_32.svg">
+  </picture>
+</a>
 
 Android emülatörü ve uygulamanız yanda gelene kadar bekleyin. Bu işlemleri yaparken Android emülatörünü asla kapatmayın.
 
@@ -105,6 +116,21 @@ First, download the <code>idx-expo-templates.sh</code> file.
 
 <p>Then <a href="https://idx.google.com/new/react-native">create a new project in Project IDX with the React Native template.</a></p>
 
+<a href="https://idx.google.com/new/react-native">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://cdn.idx.dev/btn/open_dark_32.svg">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://cdn.idx.dev/btn/open_light_32.svg">
+    <img
+      height="32"
+      alt="Create new React Native project on IDX"
+      src="https://cdn.idx.dev/btn/open_purple_32.svg">
+  </picture>
+</a>
+
 Wait until the Android emulator and your application come up. Never close the Android emulator while doing these operations.
 
 Then click on the 3 lines at the top right of IDX, go to the home/user/ folder from File > Open folder and drop the script into that folder.
@@ -122,6 +148,22 @@ _**Node.js script**_
 First, download the <code>idx-expo-templates.js</code> file.
 
 <p>Then <a href="https://idx.google.com/new/react-native">Create a new project with the React Native template in Project IDX.</a></p>
+
+<a href="https://idx.google.com/new/react-native">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://cdn.idx.dev/btn/open_dark_32.svg">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://cdn.idx.dev/btn/open_light_32.svg">
+    <img
+      height="32"
+      alt="Create new React Native project on IDX"
+      src="https://cdn.idx.dev/btn/open_purple_32.svg">
+  </picture>
+</a>
+
 
 Wait until the Android emulator and your application appear next. Never close the Android emulator while doing these operations.
 
