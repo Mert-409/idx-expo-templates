@@ -1,4 +1,8 @@
 # Project IDX React Native Expo Templates
+**This script in development.**
+
+----
+
 <h3>TR</h3>
 
 Project IDX kullanıyorsanız ve bir React Native projesi oluşturduğunuzda Expo'nun @latest template'i gelecektir.
