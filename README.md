@@ -34,6 +34,8 @@ _**Bash script'i**_ - Tavsiye edilir
 
 <p>Sonra <a href="https://idx.google.com/new/react-native">Project IDX'te React Native şablonuyla yeni bir proje oluşturun.</a></p>
 
+Aşağıdaki butona basarak oluşturma ekranına gidebilirsiniz.
+
 <a href="https://idx.google.com/new/react-native">
   <picture>
     <source
@@ -44,7 +46,7 @@ _**Bash script'i**_ - Tavsiye edilir
       srcset="https://cdn.idx.dev/btn/open_light_32.svg">
     <img
       height="32"
-      alt="IDX'te yeni React Native projesi oluşturun"
+      alt="Open in IDX"
       src="https://cdn.idx.dev/btn/open_purple_32.svg">
   </picture>
 </a>
@@ -67,6 +69,8 @@ _**Node.js script'i**_
 
 <p>Sonra <a href="https://idx.google.com/new/react-native">Project IDX'te React Native şablonuyla yeni bir proje oluşturun.</a></p>
 
+Aşağıdaki butona basarak oluşturma ekranına gidebilirsiniz.
+
 <a href="https://idx.google.com/new/react-native">
   <picture>
     <source
@@ -77,7 +81,7 @@ _**Node.js script'i**_
       srcset="https://cdn.idx.dev/btn/open_light_32.svg">
     <img
       height="32"
-      alt="IDX'te yeni React Native projesi oluşturun"
+      alt="Open in IDX"
       src="https://cdn.idx.dev/btn/open_purple_32.svg">
   </picture>
 </a>
@@ -116,6 +120,8 @@ First, download the <code>idx-expo-templates.sh</code> file.
 
 <p>Then <a href="https://idx.google.com/new/react-native">create a new project in Project IDX with the React Native template.</a></p>
 
+You can go to the creation screen by pressing the button below.
+
 <a href="https://idx.google.com/new/react-native">
   <picture>
     <source
@@ -126,7 +132,7 @@ First, download the <code>idx-expo-templates.sh</code> file.
       srcset="https://cdn.idx.dev/btn/open_light_32.svg">
     <img
       height="32"
-      alt="Create new React Native project on IDX"
+      alt="Open in IDX"
       src="https://cdn.idx.dev/btn/open_purple_32.svg">
   </picture>
 </a>
@@ -149,6 +155,8 @@ First, download the <code>idx-expo-templates.js</code> file.
 
 <p>Then <a href="https://idx.google.com/new/react-native">Create a new project with the React Native template in Project IDX.</a></p>
 
+You can go to the creation screen by pressing the button below.
+
 <a href="https://idx.google.com/new/react-native">
   <picture>
     <source
@@ -159,7 +167,7 @@ First, download the <code>idx-expo-templates.js</code> file.
       srcset="https://cdn.idx.dev/btn/open_light_32.svg">
     <img
       height="32"
-      alt="Create new React Native project on IDX"
+      alt="Open in IDX"
       src="https://cdn.idx.dev/btn/open_purple_32.svg">
   </picture>
 </a>
