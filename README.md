@@ -1,6 +1,7 @@
 # Project IDX React Native Expo Templates
 **This script in development.**
 
+Open this repo in IDX:
 <a href="https://idx.google.com/import?url=https%3A%2F%2Fgithub.com%2FMert-409%2Fidx-expo-templates%2F">
   <picture>
     <source
